@@ -5,7 +5,7 @@ me2zb@umsystem.edu
 #no partner </br>
 
 #About this repository </br>
-<h2>Following the instructions by professor in the class and in the presented explanation video.This icp1 is stepping stone for the upcoming icp's in many ways.
+<h4>Following the instructions by professor in the class and in the presented explanation video.This icp1 is stepping stone for the upcoming icp's in many ways.
 #organizing the folders is the main step in understanding the content and knowledge related to the subject
 To summarize ,in this icp,we have created github and repository and divided into two folders,,webpart where web development related documents are meant to be posted and Mobile development folder where in the later icp's we are going to explore.
 #i have also learned about local github and importance of pulling and fetching requests from remote github.
