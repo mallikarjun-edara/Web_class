@@ -10,9 +10,9 @@ me2zb@umsystem.edu
 
 2.Create a GitHub account. Create a repository in remote GitHub. Clone it to the local machine. Create 2 (Source and Documentation) directories in local GitHub 
 <img width="993" alt="Screen Shot 2022-01-28 at 9 12 54 PM" src="https://user-images.githubusercontent.com/63585043/151645213-b886e3b7-0b72-4072-aad1-a6b495ed20ac.png">
-##created a repository named Web_class in my github account 
-##created two folders(WebPart and MobilePart) following the steps mentioned by the professor 
-##cloned it to the local github using the option clone in remote github
+###created a repository named Web_class in my github account 
+###created two folders(WebPart and MobilePart) following the steps mentioned by the professor 
+###cloned it to the local github using the option clone in remote github
 
 3.Takescreenshots of a repository creation and put them in the documentation folder in the local repository,and sync it to the remote repository  
 4.Create an HTML document named "index.html" and place it in the source folder
