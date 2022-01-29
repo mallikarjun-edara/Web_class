@@ -16,6 +16,8 @@ me2zb@umsystem.edu
 
 3.Takescreenshots of a repository creation and put them in the documentation folder in the local repository,and sync it to the remote repository  
 <img width="949" alt="Screen Shot 2022-01-28 at 9 37 56 PM" src="https://user-images.githubusercontent.com/63585043/151645975-560ef29e-af0c-4608-ab8c-7cbe5fdd8754.png">
+<img width="1365" alt="Screen Shot 2022-01-28 at 9 39 19 PM" src="https://user-images.githubusercontent.com/63585043/151646037-502eae63-9faa-4d93-b44d-c5cf4f80d45a.png">
+
 
 4.Create an HTML document named "index.html" and place it in the source folder
 5.Write about your repository in README.MD file
