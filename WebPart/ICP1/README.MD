@@ -31,6 +31,8 @@ To summarize ,in this icp,we have created github and repository and divided into
 <img width="1214" alt="Screen Shot 2022-01-28 at 9 43 35 PM" src="https://user-images.githubusercontent.com/63585043/151646126-8d77ce9d-129b-406f-87e6-10fe850e30f3.png">
 
 5.Write about your repository in README.MD file
+<img width="1205" alt="Screen Shot 2022-01-28 at 9 54 04 PM" src="https://user-images.githubusercontent.com/63585043/151646373-cfa7cc54-da26-4bcf-813c-d9a30624c7c1.png">
+
 6.Create a wiki page for your first ICP(Web_ICP1) and explain what you did in your first ICP (use the screenshots took in step3)
 7.Create a branch for your repo and make a pull request
 8.Create an issue and describe your pull request
