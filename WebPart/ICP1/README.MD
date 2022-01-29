@@ -3,7 +3,13 @@
 me2zb@umsystem.edu
 
 #no partner 
-
+#About this repository </br>
+Following the instructions by professor in the class and in the presented explanation video.This icp1 is stepping stone for the upcoming icp's in many ways.
+#organizing the folders is the main step in understanding the content and knowledge related to the subject
+To summarize ,in this icp,we have created github and repository and divided into two folders,,webpart where web development related documents are meant to be posted and Mobile development folder where in the later icp's we are going to explore.
+#i have also learned about local github and importance of pulling and fetching requests from remote github.
+#For version control github is main destination for every indie developer .
+#creating branch and fork options made life easier for developers who are experiencing bugs and making changes in whole code.
 # Web_class
 1.Show that you have WebStorm installed on your machine
 <img width="1440" alt="Screen Shot 2022-01-28 at 8 42 49 PM" src="https://user-images.githubusercontent.com/63585043/151644208-8d3e8a59-d804-46bf-9e91-66318cee3214.png">
