@@ -20,6 +20,8 @@ me2zb@umsystem.edu
 
 
 4.Create an HTML document named "index.html" and place it in the source folder
+<img width="953" alt="Screen Shot 2022-01-28 at 9 42 16 PM" src="https://user-images.githubusercontent.com/63585043/151646089-70a4d7ab-8439-4ac3-b5bb-cdd3b7dea1e0.png">
+
 5.Write about your repository in README.MD file
 6.Create a wiki page for your first ICP(Web_ICP1) and explain what you did in your first ICP (use the screenshots took in step3)
 7.Create a branch for your repo and make a pull request
