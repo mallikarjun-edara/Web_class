@@ -12,3 +12,4 @@ To summarize ,in this icp,we have created github and repository and divided into
 #For version control github is main destination for every indie developer .</br>
 #creating branch and fork options made life easier for developers who are experiencing bugs and making changes in whole code.</br>
 <h2>everything related to ICP1 is described in the wiki page
+https://github.com/mallikarjun-edara/Web_class/wiki/Web_ICP1
