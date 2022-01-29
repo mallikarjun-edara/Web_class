@@ -15,6 +15,8 @@ me2zb@umsystem.edu
 #Cloned it to the local github using the option clone in remote github
 
 3.Takescreenshots of a repository creation and put them in the documentation folder in the local repository,and sync it to the remote repository  
+<img width="949" alt="Screen Shot 2022-01-28 at 9 37 56 PM" src="https://user-images.githubusercontent.com/63585043/151645975-560ef29e-af0c-4608-ab8c-7cbe5fdd8754.png">
+
 4.Create an HTML document named "index.html" and place it in the source folder
 5.Write about your repository in README.MD file
 6.Create a wiki page for your first ICP(Web_ICP1) and explain what you did in your first ICP (use the screenshots took in step3)
