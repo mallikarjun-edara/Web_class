@@ -11,5 +11,5 @@ To summarize ,in this icp,we have created github and repository and divided into
 #i have also learned about local github and importance of pulling and fetching requests from remote github.</br>
 #For version control github is main destination for every indie developer .</br>
 #creating branch and fork options made life easier for developers who are experiencing bugs and making changes in whole code.</br>
-<h2>everything related to ICP1 is described in the wiki page
+<h2>everything related to ICP1 is described in the wiki page</br>
 https://github.com/mallikarjun-edara/Web_class/wiki/Web_ICP1
