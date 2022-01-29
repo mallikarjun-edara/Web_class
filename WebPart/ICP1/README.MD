@@ -11,8 +11,8 @@ To summarize ,in this icp,we have created github and repository and divided into
 #i have also learned about local github and importance of pulling and fetching requests from remote github.
 #For version control github is main destination for every indie developer .
 #creating branch and fork options made life easier for developers who are experiencing bugs and making changes in whole code.</br>
-# Web_class
-1.Show that you have WebStorm installed on your machine
+<h1># Web_class
+<h2>1.Show that you have WebStorm installed on your machine
 <img width="1440" alt="Screen Shot 2022-01-28 at 8 42 49 PM" src="https://user-images.githubusercontent.com/63585043/151644208-8d3e8a59-d804-46bf-9e91-66318cee3214.png">
 
 2.Create a GitHub account. Create a repository in remote GitHub. Clone it to the local machine. Create 2 (Source and Documentation) directories in local GitHub 
