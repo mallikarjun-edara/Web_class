@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICP3</title>
+    <style>
+        .mainBody{
+            background: url(Images/background-3.jpg);
+            background-size : cover
+        }
+
+        h2{
+            color: white;
+            font-family: candara;
+            font-size: 30px;
+        }
+
+        .img{
+            top: 30%;
+            left: 30%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body class="mainBody">
+<div>
+    <p>
+        <em><h2 align="center">Select from Rock! Paper! Scissors!</h2></em>
+    </p>
+</div>
+<div>
+    <div class="img" align="center">
+        <img width="250px" height="250px" src=""
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#rock").click(function () {
+            compare("rock");
+        });
+        $("#paper").click(function () {
+            compare("paper");
+        });
+        $("#scissors").click(function () {
+            compare("scissors");
+        });
+    });
+
+    function compare(choice1) {
+        var computerChoice = Math.random();
+        if (computerChoice < 0.34) {
+            choice2 = "rock";
+        } else if (computerChoice <= 0.67) {
+            choice2 = "paper";
+        } else {
+            choice2 = "scissors";
+        }
+
+        if (choice1 === choice2) {
+
+            alert( "The result is a tie!!!" + " " + "Lets play again.");
+        }
+
+        else if (choice1 === "rock") {
+
+            if (choice2 === "scissors") {
+                alert( "rock wins"+ "!!! " +"You beat the computer, nice job!");
+            }
+            else {
+                alert("paper wins"  + "!!! " + "Your really smart computer beat you.") ;
+            }
+        }
+
+        else if (choice1 === "paper") {
+
+            if (choice2 === "rock") {
+                alert("paper wins"+ "!!! " + "You beat the computer, nice job!") ;
+            }
+            else {
+                alert("scissors wins"+ "!!! " + "Your really smart computer beat you.") ;
+            }
+
+        }
+
+        else if (choice1 === "scissors") {
+
+            if (choice2 === "rock") {
+                alert("rock wins"  + " " + "Your really smart computer beat you.") ;
+            }
+            else {
+                alert("scissors win"  + " " + "You beat the computer, nice job!") ;
+            }
+        }
+
+
+    }
+</script>
+</body>
+</html>
