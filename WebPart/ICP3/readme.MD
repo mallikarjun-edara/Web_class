@@ -2,7 +2,7 @@
 ### Mallikarjun Edara
 me2zb@umsystem.edu
 
-#Priya Varhsa </br>
+###Priya Varsha </br>
 
 #About this repository </br>
 <h4>Following the instructions by professor in the class .This icp3 is stepping stone for the upcoming icp's in many ways.</br>
