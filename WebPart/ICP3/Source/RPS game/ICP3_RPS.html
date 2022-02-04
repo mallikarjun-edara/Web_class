@@ -5,7 +5,7 @@
     <title>ICP3</title>
     <style>
         .mainBody{
-            background: url(Images/Background.jpg);
+            background: url(Images/Background.jpg);                     /* background image import*/
             background-size : cover;
 
 
@@ -24,65 +24,61 @@
             font-size: 30px;
         }
 
-        .img{
-            top: 30%;
-            left: 30%;
-            position: absolute;
-        }
+
         h2{
             color: whitesmoke;
         }
         .text{
-            display: flex;
+            display: flex;                                       /*display type flex*/
             justify-content: center;
             align-items: center;
             height: 100px;
             width: auto;
-            border: 3px solid green;
-            font-family: "Academy Engraved LET";
+            border: 3px solid green;                             /*border color*/
+            font-family: "Academy Engraved LET";                /*text font style*/
             font-size: x-large;
             font-style: italic;
-            color: aqua;
+            color: aqua;                                           /*text colour*/
             background-color: black;
 
         }
-    </style>
+    </style>                                                        /*style tag helps to embed css code onto script*/
 </head>
 <body class="mainBody">
 <div>
     <p>
-        <h2 align ="center" > Rock! Paper! Scissors!</h2>
+        <h2 > Rock! Paper! Scissors!</h2>           /*Main text*/
     </p>
 </div>
 <div>
 
     <div class="button-row">
 
-        <input type="image" height="200px" src="Images/rock.png" onclick="rock()">
+        <input type="image" height="200px" src="Images/rock.png" onclick="rock()">      /*on click button executes */
         <input type="image" height="200px" src="Images/paper.png" onclick="paper()">
         <input type="image" height="200px" src="Images/scissors.png" onclick="scissors()">
 
 
 
     </div><b>
-    <label id="rock" class="text"> </label>
+    <label id="rock" class="text"> </label>                     /*main tag helps to display the result of the game*/
 </b>
 </div>
 
-<script>
+<script>                                                            //script tag helps to connect javascript
     var playerRoll;
 
-    //rock click
+                                                                 //rock click function
     function rock()
     {
-        playerRoll = 1;
+        playerRoll = 1;                                                     //choice of player option
 
-        var computerRoll = Math.floor(Math.random() * 3 + 1);
-
+        var computerRoll = Math.floor(Math.random() * 3 + 1);                   //random function helps to find a random value from math library
+                                                                                    //floor calculates the integer value rounding off float value
         //draw case
-        if (computerRoll === playerRoll) {
+        if (computerRoll === playerRoll) {                                      //draw option
 
-            document.getElementById("rock").innerHTML=" The Computer chose rock too, game is draw"
+            document.getElementById("rock").innerHTML=" The Computer chose rock too, game is draw"//calls label tag to display result
 
         }
 
@@ -100,7 +96,7 @@
         }
     }
 
-    //paper click
+                                                                            //paper click function
     function paper()
     {
         playerRoll = 2;
@@ -127,7 +123,7 @@
 
     }
 
-    //scissors click
+                                                                            //scissors click function
     function scissors()
     {
         playerRoll = 3;
