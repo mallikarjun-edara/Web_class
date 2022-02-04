@@ -6,9 +6,18 @@
     <style>
         .mainBody{
             background: url(Images/Background.jpg);
-            background-size : cover
-        }
+            background-size : cover;
 
+
+        }
+        .button-row{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
         h2{
             color: white;
             font-family: candara;
@@ -20,84 +29,129 @@
             left: 30%;
             position: absolute;
         }
+        h2{
+            color: whitesmoke;
+        }
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: auto;
+            border: 3px solid green;
+            font-family: "Academy Engraved LET";
+            font-size: x-large;
+            font-style: italic;
+            color: aqua;
+background-color: black;
+
+        }
     </style>
 </head>
 <body class="mainBody">
 <div>
     <p>
-        <em><h2 align ="center">Select from Rock! Paper! Scissors!</h2></em>
+        <h2 align ="center" > Rock! Paper! Scissors!</h2>
     </p>
 </div>
 <div>
-    <div class="img" align="center">
-        <img width="250px" height="250px" src="Images/rock.png" id="rock">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img width="250px" height="250px" src="Images/paper.png" id="paper">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img width="250px" height="250px" src="Images/scissors.png" id="scissors">
+
+    <div class="button-row">
+
+        <input type="image" height="200px" src="Images/rock.png" onclick="rock()">
+        <input type="image" height="200px" src="Images/paper.png" onclick="paper()">
+        <input type="image" height="200px" src="Images/scissors.png" onclick="scissors()">
 
 
-    </div>
+
+    </div><b>
+    <label id="rock" class="text"> </label>
+</b>
 </div>
+
 <script>
-    $(document).ready(function () {
-        $("#rock").click(function () {
-            compare("rock");
-        });
-        $("#paper").click(function () {
-            compare("paper");
-        });
-        $("#scissors").click(function () {
-            compare("scissors");
-        });
-    });
+    var playerRoll;
 
-    function compare(choice1) {
-        var computerChoice = Math.random();
-        if (computerChoice < 0.34) {
-            choice2 = "rock";
-        } else if (computerChoice <= 0.67) {
-            choice2 = "paper";
+    //rock click
+    function rock()
+    {
+        playerRoll = 1;
+
+        var computerRoll = Math.floor(Math.random() * 3 + 1);
+
+        //draw case
+        if (computerRoll === playerRoll) {
+
+            document.getElementById("rock").innerHTML=" The Computer chose rock too, game is draw"
+
+        }
+
+        // rock vs  paper
+        else if (playerRoll === 1 && computerRoll === 2) {
+            document.getElementById("rock").innerHTML="Computer chose paper , computer wins"
+
+        }
+
+        // rock vs  scissors
+        else {
+            document.getElementById("rock").innerHTML="computer chose scissors ,  you won"
+
+
+        }
+    }
+
+    //paper click
+    function paper()
+    {
+        playerRoll = 2;
+        document.getElementById("rock").Text="";
+        console.log(document.getElementById("rock").innerHTML)
+        var computerRoll = Math.floor(Math.random() * 3 + 1);
+
+          //draw
+        if (computerRoll === playerRoll) {
+            document.getElementById("rock").innerHTML= " The Computer chose paper too, game is draw";
+
+            //paper vs  rock
+        } else if (playerRoll === 2 && computerRoll === 1) {
+            document.getElementById("rock").innerHTML="Computer chose rock , you won";
+
+
+            //paper vs  scissors
         } else {
-            choice2 = "scissors";
-        }
+            document.getElementById("rock").innerHTML="computer chose scissors , you lost";
 
-        if (choice1 === choice2) {
 
-            alert( "The result is a tie!!!" + " " + "Lets play again.");
-        }
-
-        else if (choice1 === "rock") {
-
-            if (choice2 === "scissors") {
-                alert( "rock wins"+ "!!! " +"You beat the computer, nice job!");
-            }
-            else {
-                alert("paper wins"  + "!!! " + "Your really smart computer beat you.") ;
-            }
-        }
-
-        else if (choice1 === "paper") {
-
-            if (choice2 === "rock") {
-                alert("paper wins"+ "!!! " + "You beat the computer, nice job!") ;
-            }
-            else {
-                alert("scissors wins"+ "!!! " + "Your really smart computer beat you.") ;
-            }
-
-        }
-
-        else if (choice1 === "scissors") {
-
-            if (choice2 === "rock") {
-                alert("rock wins"  + " " + "Your really smart computer beat you.") ;
-            }
-            else {
-                alert("scissors win"  + " " + "You beat the computer, nice job!") ;
-            }
         }
 
 
     }
+
+    //scissors click
+    function scissors()
+    {
+        playerRoll = 3;
+        document.getElementById("rock").Text="";
+        console.log(document.getElementById("rock").innerHTML)
+
+        var computerRoll = Math.floor(Math.random() * 3 + 1);
+        //draw
+        if (computerRoll === playerRoll) {
+
+            document.getElementById("rock").innerHTML=" The Computer chose scissors too, game is draw"
+
+        }
+        //scissors vs  paper
+        else if (playerRoll === 3 && computerRoll === 2) {
+            document.getElementById("rock").innerHTML="Computer chose paper , you win"
+
+        } else {
+            document.getElementById("rock").innerHTML="computer chose rock , you lost"
+
+        }
+
+    }
 </script>
+
 </body>
 </html>
