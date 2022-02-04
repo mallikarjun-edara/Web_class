@@ -1,8 +1,8 @@
 
-### Mallikarjun Edara
+<h1>Mallikarjun Edara</h1>
 me2zb@umsystem.edu
 
-<h1>Priya Varsha </br>
+<h1>Priya Varsha </h1></br>
 
 #About this repository </br>
 <h4>Following the instructions by professor in the class .This icp3 is stepping stone for the upcoming icp's in many ways.</br>
